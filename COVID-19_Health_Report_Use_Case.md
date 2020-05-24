@@ -26,7 +26,7 @@ As a use case early in the adoption curve of SSI systems, this use case highligh
 1. Public health authorities publish guidelines for a health report that Dr. Bob can follow and Alice’s employer accepts as a verifier.
 
 ## ​2.1.4.​ Diagram
-![](diagrams/diagram-health-report-use-case.png)
+![](diagrams/Health_Report_Use_Case.png)
 
 ## ​2.1.5.​ Adoption Sequence
 
