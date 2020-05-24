@@ -69,3 +69,33 @@ C.) Later, Dr. Bob wants to see the old report before dictating a new report:
 1. Alice agrees and replies with a link to her current authorization server and document.
 1. Dr. Bob, using the Library as a verifier, presents his credentials to Alice’s authorization server and retrieves the document. 
 
+## ​4​ \Features and Benefits
+
+## ​4.1​ \Review of Issues Raised by EFF
+According to [https://www.eff.org/deeplinks/2020/05/no-california-bill-verified-credentials-covid-19-test-results](https://www.eff.org/deeplinks/2020/05/no-california-bill-verified-credentials-covid-19-test-results)
+> EFF opposes a California bill, A.B. 2004, that would authorize the issuers of COVID-19 test results to do so with digital verifiable credentials. This bill would take us a step towards national digital identification, create information security risks, exacerbate social inequities in access to smartphones and COVID-19 tests, endorse one solution to an evolving technological problem, and fail to limit who may view credentials of test results. The bill also would not effectively advance its stated goal of addressing the COVID-19 outbreak.
+
+1. **National Digital Identification**
+The subject of the health report, Alice, does not have a standardized or national digital identifer. Alice's access control agent endpoint might be considered a global digital identifier and could become a point of correlation if Alice uses the same agent across multiple services.
+
+Dr. Bob does have national identifiers already including a federal National Provider Identifier [(NPI)](https://npiregistry.cms.hhs.gov/) and typically a [DEA Number](https://apps.deadiversion.usdoj.gov/webforms2/spring/validationLogin?execution=e2s1). These numbers and the associated credentials are public by design. Convenient on-line verification of physician credentials is an essential consumer protection.
+
+2. **Presenting Digital Credentials Creates New Information Security Risks**
+Alice does risk having her phone seized by her employer but this would be assault. The mitigation is for Alice to print out the QR code and hand the card to her employer.
+
+3. **Smartphone-Based Credentials Don’t Account for Broader Social Inequities**
+Alice does not need a smartphone. A device capapble of receiving SMS messages and links is sufficient for this use case.
+
+4. **A.B. 2004 Endorses A Single Way to Solve A Technological Problem**
+This use case applies verifiable credentials through a proxy chosen by the subject of the standardized VC rather than a government mandate. This inherently decentralized approach significantly mitigates this issue.
+
+5. **A.B. 2004 Has No Limits on Who May View a Verified Credential**
+This use case gives Alice control, through her (potentially self-sovereign) agent, over how the credential is held or used. The concern that digital credentials will be too convenient to access and persist by various verifiers is valid. This could be mitigated by regualting the employer the way we regulate credit card CVV using PCI compliance.
+
+6. **This Bill Would Not Effectively Advance Its Stated Goals**
+This use case explicitly avoids introducing new regualtions. The role of government relative to the practice of medicine or public health is unchanged. The government does have a role in assisting with standards and best practices and ensuring against unwarranted disparities or discrimination. 
+
+On the contrary, current government practices around public professional credentials, such as a physician's DEA Number, can be much improved in the interest of public saftety and consumer protection. For example, DEA number lookup is subject to a [$1,350 annual fee](https://www.dealookup.com/subscribe.asp) that makes validation of the physician's credential by a notary or proxy unreasonable given modern technology. Government's role in digital notarization practice at the state and federal level bears review in light of current technology and privacy concerns. 
+
+
+
