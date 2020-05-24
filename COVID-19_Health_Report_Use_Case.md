@@ -1,3 +1,21 @@
+# Abstract
+
+# Status of This Document
+
+# 1. Introduction
+This document is inspired by [Use Cases and Requirements for Decentralized Identifiers](https://w3c.github.io/did-use-cases/) that does a good job of presenting the feature and requirements coverage of just five use cases.
+
+## 1.1 Existing Work
+Existing work informs the use cases and requirements for secure data storage:
+* [Universal Issuer](https://uniissuer.io/) and [Verifier](https://univerifier.io/) by DanubeTech
+* [Datashards](https://datashards.net/) by Dusty Cloud
+* [CHAPI](https://iiw.idcommons.net/101_Session:_Verifiable_Credential_Handler_(CHAPI)_and_DIDComm) by Digital Bazaar
+* [Transactional Authorization](https://oauth.xyz/) by Justin Richer
+* [MyData Operators](http://mydata.org/operators/) by MyData Global
+* [EFF Priavcy Concerns](https://www.eff.org/deeplinks/2020/05/no-california-bill-verified-credentials-covid-19-test-results)
+
+# 2. Use Cases
+
 ## ​2.1​ \[Covid-19\] Health Report Use Case
 
 _Submitted by Adrian Gropper, with help from Juan Caballero (Spherity GmbH)_
